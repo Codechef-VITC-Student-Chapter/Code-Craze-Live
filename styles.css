@@ -1,0 +1,108 @@
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+body {
+    font-family: Ubuntu;
+    background-color: #273040;
+    color: white;
+}
+
+h1 {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+#main-title {
+    text-align: center;
+}
+
+#rules {
+    margin-left: 1em;
+}
+
+#board {
+    width: 60vw;
+    height: 60vw;
+    max-width: 600px;
+    max-height: 600px;
+    background-color: #e7f0fe;
+    margin: auto;
+    display: grid;
+    /* repeat(7, 1fr) = 1fr 1fr 1fr 1fr 1fr 1fr 1fr */
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+
+
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    border: 1px black solid;
+}
+
+.coin {
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+    border-radius: 50%;
+    border: 5px #273040 solid;
+    box-sizing: border-box;
+}
+
+.red {
+    background-color: #e43c33;
+}
+
+.yellow {
+    background-color: #f8d51d;
+}
